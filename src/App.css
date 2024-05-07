@@ -78,12 +78,19 @@ position:absolute;
 }
 
 .categoery-title{
-  width: 40%;
+  width: 100%;
   height: 56px;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   display: flex;
   font-size: x-large;
   font-weight: bolder;
 
 }
+
+.categoery-items{
+  gap:15px;
+  align-items:center;
+}
+
+
