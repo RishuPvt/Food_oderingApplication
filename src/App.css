@@ -49,9 +49,10 @@
 }
 .box{
   background-color:rgba(0,0,0,0.7);
+  z-index:10;
 }
 .inner-box{
-width:400px;
+width:500px;
 height:100%;
 background-color:white;  
 position:absolute;
@@ -93,4 +94,19 @@ position:absolute;
   align-items:center;
 }
 
-
+//cards
+.discound{
+  font-size: larger;
+}
+.name{
+  font-size: large;
+}
+.rating{
+  display: flex;
+  align-items: center;
+  gap:5px;
+}
+.categoery-items2{
+  gap:35px;
+  align-items:center;
+}
