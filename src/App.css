@@ -110,3 +110,80 @@ position:absolute;
   gap:35px;
   align-items:center;
 }
+
+//Header2
+.section2{
+  width: 100%;
+  align-items: center;
+}
+
+.list-items2 {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  height: 100%;
+  align-items: center;
+}
+.list-items2 li {
+  border-radius: 12px;
+    padding: 9px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  border: 1px solid;
+}
+.srch{
+  margin-left: 60px;
+  border: 2px solid;
+  border-radius: 9px;
+
+
+}
+.srch input{
+  padding: 8px;
+  border-radius: 10px;
+}
+//footer
+.footer {
+  color: #fff;
+  padding: 50px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  margin-right: 20px;
+}
+
+.footer-column h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 8px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  font-size: 0.9rem;
+}
+
+/* Adjustments for FontAwesome icons */
+.footer-column ul li svg {
+  margin-right: 5px;
+}
