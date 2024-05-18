@@ -45,8 +45,10 @@ function Header2() {
         key={index}
         className=" hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer"
       >
-        {link.icon}
         {link.name}
+        {link.icon}
+
+        
       </li>
     )
 })}
@@ -54,6 +56,7 @@ function Header2() {
 </ul>
 <form className='srch'>
     <input placeholder='Search'></input>
+    <FaSearch/>
 </form>
     </div>
     
