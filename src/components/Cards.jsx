@@ -5,7 +5,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import CardImage from "./CardImage";
 import { MdOutlineStarRate } from "react-icons/md";
 import { useState } from "react";
-function Cards({title}) {
+function Cards({ title }) {
   const [Slide, Setslide] = useState(0);
   const nextSlide = () => {
     Setslide(Slide + 2);

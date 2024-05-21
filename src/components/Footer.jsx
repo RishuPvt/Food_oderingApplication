@@ -1,5 +1,6 @@
-import React from 'react';
+import React from "react";
 import "../App.css";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -8,17 +9,25 @@ const Footer = () => {
         <div className="footer-column">
           <h4>Contact Us</h4>
           <ul>
-            <li>support@example.com</li>
-            <li> +1 (123) 456-7890</li>
-            <li>123 Street, City, Country</li>
+            <li>RishuPvt@example.com</li>
+            <li> +91(123)1003 </li>
+            <li>Knowledge Park III, Greater Noida, India</li>
           </ul>
         </div>
         <div className="footer-column">
           <h4>Follow Us</h4>
           <ul>
-            <li>Facebook</li>
-            <li>Twitter</li>
-            <li>Instagram</li>
+            <li className="hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer">
+              Facebook
+            </li>
+            <NavLink to="">
+              <li className="hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer">
+                Github
+              </li>
+            </NavLink>
+            <li className="hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer">
+              Instagram
+            </li>
           </ul>
         </div>
         <div className="footer-column">
@@ -35,6 +44,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

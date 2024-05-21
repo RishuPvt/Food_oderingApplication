@@ -15,7 +15,7 @@ function Search() {
 <form className='searchBox justify-center w-[65%] flex items-center'>
 <input className='w-[95%] h-[38px] outline-none' type='text' placeholder='Search'>
 </input>
-<FaSearch/>
+<FaSearch className='cursor-pointer hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500'/>
 </form>
 </div>
 <Searchcategoery/>

@@ -96,7 +96,7 @@ function Categoery() {
               <div className=" list-div w-[160px]">
                 {" "}
                 <ImageDisplay apiKey="v1674029846/PC_Creative%20refresh/3D_bau/banners_new/Idli.png" />
-              </div> 
+              </div>
             </div>
           </div>
         </div>

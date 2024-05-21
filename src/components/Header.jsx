@@ -72,16 +72,21 @@ export default function Header() {
         <div
           className="inner-box duration-500"
           style={{ visibility: toggle ? "visible" : "hidden" }}
-          onClick={hidemenubar}
         >
           <div className="exiticon">
-            <RxCross1 className="icon" />
+            <RxCross1
+              onClick={hidemenubar}
+              className="icon hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer "
+            />
           </div>
-          <div className="">
-<form>
-  <input type="Text" placeholder="Search"></input>
-</form>
-
+          <div className="locationBox ">
+            <form className="flex items-center justify-center ">
+              <input
+                className=""
+                type="Text"
+                placeholder="Search for Area , Street name.."
+              ></input>
+            </form>
           </div>
         </div>
       </div>
@@ -98,20 +103,19 @@ export default function Header() {
           style={{ visibility: toggle2 ? "visible" : "hidden" }}
         >
           <div className="exiticon">
-            <RxCross1 className="icon"
-          onClick={hideLogin}
-          />
+            <RxCross1
+              className="icon hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer"
+              onClick={hideLogin}
+            />
           </div>
           <div className="conatiner">
-            
             <form className="form2">
               <input type="text" placeholder="Phone Number"></input>
               <input type="Password" placeholder="Password"></input>
-            <button className="btn5">Log In</button>
-
+              <button className="btn5">Log In</button>
             </form>
             <div className="conatiner2">
-            <h3>Or create Account</h3>
+              <h3>Or create Account</h3>
             </div>
           </div>
         </div>

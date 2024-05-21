@@ -1,3 +1,7 @@
+body {
+  background-color: #f8f8f8;
+}
+
 .section {
   width: 100%;
   display: flex;
@@ -47,47 +51,47 @@
 .drop-bar:hover {
   text-decoration: overline;
 }
-.box{
-  background-color:rgba(0,0,0,0.7);
-  z-index:10;
+.box {
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
 }
-.inner-box{
-width:500px;
-height:100%;
-background-color:white;  
-position:absolute;
+.inner-box {
+  width: 500px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
 }
-.icon{
+.icon {
   cursor: pointer;
 }
-.exiticon{
+.exiticon {
   width: 100%;
   height: 80px;
   display: flex;
   margin-left: 80px;
   align-items: center;
 }
-.new{
-  color:orange;
+.new {
+  color: orange;
   font-weight: 700;
 }
-.conatiner{
-  width:100%;
-  height:100%;
+.conatiner {
+  width: 100%;
+  height: 100%;
 }
-.conatiner2{
+.conatiner2 {
   width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 15px;
 }
-.conatiner2 h3{
+.conatiner2 h3 {
   font-weight: 700;
-    color: orange;
-    text-decoration: underline;
+  color: orange;
+  text-decoration: underline;
 }
-.form2{
+.form2 {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -96,38 +100,36 @@ position:absolute;
   gap: 20px;
   justify-content: center;
 }
-.conatiner input{
+.conatiner input {
   border: 2px solid;
-    width: 55%;
-    height: 40px;
-    text-align: center
+  width: 55%;
+  height: 40px;
+  text-align: center;
 }
-.btn5{
+.btn5 {
   width: 55%;
   background: orange;
   height: 38px;
   font-weight: 700;
-    color: white;
+  color: white;
 }
-
-
-
-
-
-
-
-
-
-
+.locationBox input {
+  height: 50px;
+  width: 65%;
+  border: 2px solid;
+  outline: none;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
 //categoery
 
-.cat-innerbox{
+.cat-innerbox {
   height: 100%;
   width: 80%;
 }
 
-.categoery-title{
+.categoery-title {
   width: 100%;
   height: 56px;
   justify-content: space-between;
@@ -135,33 +137,32 @@ position:absolute;
   display: flex;
   font-size: x-large;
   font-weight: bolder;
-
 }
 
-.categoery-items{
-  gap:15px;
-  align-items:center;
+.categoery-items {
+  gap: 15px;
+  align-items: center;
 }
 
 //cards
-.discound{
+.discound {
   font-size: larger;
 }
-.name{
+.name {
   font-size: large;
 }
-.rating{
+.rating {
   display: flex;
   align-items: center;
-  gap:5px;
+  gap: 5px;
 }
-.categoery-items2{
-  gap:35px;
-  align-items:center;
+.categoery-items2 {
+  gap: 35px;
+  align-items: center;
 }
 
 //Header2
-.section2{
+.section2 {
   width: 100%;
   align-items: center;
 }
@@ -175,26 +176,26 @@ position:absolute;
 }
 .list-items2 li {
   border-radius: 12px;
-    padding: 9px;
+  padding: 9px;
   display: flex;
   gap: 7px;
   align-items: center;
   border: 1px solid;
 }
-.srch{
+.srch {
   margin-left: 60px;
   border: 2px solid;
   border-radius: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
-
+  background-color: white;
 }
-.srch input{
+.srch input {
   padding: 8px;
   width: 85%;
   outline: none;
-   border-radius: 10px;
+  border-radius: 10px;
 }
 //footer
 .footer {
@@ -240,28 +241,27 @@ position:absolute;
 .footer-column ul li svg {
   margin-right: 5px;
 }
- /* search card */
- .searchBox{
-  border:2px solid;
-  background-color:white;
- }
+/* search card */
+.searchBox {
+  border: 2px solid;
+  background-color: white;
+}
 
-
- .offerCard{
+.offerCard {
   width: 100%;
-    height: 95px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
- }
- .OfferTitle{
+  height: 95px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.OfferTitle {
   width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
- }
+}
 
- .OfferTitle h1{
+.OfferTitle h1 {
   font-size: larger;
   font-weight: 600;
- }
+}
