@@ -9,6 +9,7 @@ import Layout from "./components/Layout.jsx";
 import "./index.css";
 import BurgerSubCard from "./components/BurgerSubCard.jsx";
 import BarbiqueCard from "./components/BarbiqueCard.jsx";
+import SignUp from "./components/SignUp.jsx";
 const router = createBrowserRouter([
   {
     path: "",
@@ -40,6 +41,10 @@ const router = createBrowserRouter([
       {
         path: "Barbeque",
         element: <BarbiqueCard />,
+      },
+      {
+        path: "Signup",
+        element: <SignUp />,
       },
     ],
   },

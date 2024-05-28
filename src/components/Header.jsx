@@ -115,7 +115,9 @@ export default function Header() {
               <button className="btn5">Log In</button>
             </form>
             <div className="conatiner2">
-              <h3>Or create Account</h3>
+              <h3><NavLink 
+              onClick={hideLogin}
+              to="/Signup">Or create Account </NavLink></h3>
             </div>
           </div>
         </div>

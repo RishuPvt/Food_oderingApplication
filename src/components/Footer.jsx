@@ -20,7 +20,7 @@ const Footer = () => {
             <li className="hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer">
               Facebook
             </li>
-            <NavLink to="">
+            <NavLink to="https://github.com/RishuPvt">
               <li className="hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500 cursor-pointer">
                 Github
               </li>
