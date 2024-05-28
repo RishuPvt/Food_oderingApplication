@@ -10,6 +10,7 @@ import { IoHelpBuoyOutline } from "react-icons/io5";
 import { FaUserPlus } from "react-icons/fa";
 import { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
+
 export default function Header() {
   const [toggle, settoggle] = useState(false);
   const [toggle2, settoggle2] = useState(false);
@@ -59,7 +60,6 @@ export default function Header() {
       Signin: "  Sign IN ",
     },
   ];
-
   return (
     <>
       <div
@@ -150,6 +150,7 @@ export default function Header() {
             })}
           </ul>
         </div>
+
       </header>
     </>
   );

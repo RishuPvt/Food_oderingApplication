@@ -2,8 +2,10 @@ import React, { useState } from "react";
 import { FaRegArrowAltCircleLeft } from "react-icons/fa";
 import { FaRegArrowAltCircleRight } from "react-icons/fa";
 import ImageDisplay from "./ImageComponent";
+import { NavLink } from "react-router-dom";
 
 import "../App.css";
+import BurgerComponent from "./BurgerSubCard";
 
 function Categoery() {
   const [slide, setslide] = useState(0);
@@ -24,11 +26,11 @@ function Categoery() {
             <span className="flex gap-5">
               <FaRegArrowAltCircleLeft
                 onClick={prevslide}
-                className="cursor-pointer"
+                className="cursor-pointer icon hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500"
               />{" "}
               <FaRegArrowAltCircleRight
                 onClick={nextslide}
-                className="cursor-pointer"
+                className="cursor-pointer icon hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500"
               />
             </span>
           </div>
@@ -38,10 +40,10 @@ function Categoery() {
               style={{ transform: `translatex(-${slide * 10}%)` }}
             >
               <div className="  list-div w-[160px]">
-                <ImageDisplay apiKey="v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png" />
+               <NavLink to="/burger"><ImageDisplay apiKey="v1674029845/PC_Creative%20refresh/3D_bau/banners_new/Burger.png" /></NavLink>
               </div>
               <div className=" list-div w-[160px]">
-                <ImageDisplay apiKey="v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png" />
+                < NavLink to="/pizza"><ImageDisplay apiKey="v1674029856/PC_Creative%20refresh/3D_bau/banners_new/Pizza.png" /></NavLink>
               </div>
               <div className=" list-div w-[160px]">
                 <ImageDisplay apiKey="v1674029848/PC_Creative%20refresh/3D_bau/banners_new/Chinese.png" />

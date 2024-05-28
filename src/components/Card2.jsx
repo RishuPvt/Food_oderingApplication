@@ -24,11 +24,11 @@ function Card2({ title }) {
             <span className="flex gap-5">
               <FaRegArrowAltCircleLeft
                 onClick={PrvSlide}
-                className="cursor-pointer"
+                className="cursor-pointer icon hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500"
               />{" "}
               <FaRegArrowAltCircleRight
                 onClick={nextSlide}
-                className="cursor-pointer"
+                className="cursor-pointer icon hover:bg-gray-50 lg:hover:bg-transparent hover:text-orange-500"
               />
             </span>
           </div>

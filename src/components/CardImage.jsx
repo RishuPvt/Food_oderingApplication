@@ -18,7 +18,7 @@ function CardImage({ apiKey }) {
 
   return (
     <>
-      <div>{CardUrl && <img src={CardUrl} alt={apiKey} />}</div>
+      <div>{CardUrl && <img  className="rounded-xl"src={CardUrl} alt={apiKey} />}</div>
     </>
   );
 }
